@@ -1,13 +1,16 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.Principal {
+    text-align: center;
+    background-color: black;
+}
 
-    You can write your own styles here...
+.Principal div{                  // por que con el div si se forma y sin el div no al ser clase no deberia ser solo  .Principal??
+    display: inline-block;
+    font-size: 40px;
+    line-height: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
